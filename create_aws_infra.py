@@ -136,7 +136,7 @@ def create_security_group(vpc_id):
                 'IpProtocol': 'tcp',
                 'FromPort': 22,
                 'ToPort': 22,
-                'IpRanges': [{'CidrIp': '0.0.0.0/0'}]  # Allow SSH access from anywhere (for demonstration purposes)
+                'IpRanges': [{'CidrIp': '0.0.0.0/0'}]  # Allow SSH access from anywhere
             },
         ]
     )
